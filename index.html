@@ -3,11 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Pertama Saya</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Purbalinggaku</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background: url('https://via.placeholder.com/1500x500') no-repeat center center/cover;
+            color: white;
+            padding: 50px 20px;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin: 10px 0 0;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+        }
+        .cerpen {
+            margin: 20px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .cerpen h2 {
+            margin-top: 0;
+        }
+        .cerpen p {
+            color: #666;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Halo, Dunia!</h1>
-    <p>Ini adalah website pertama saya di GitHub Pages.</p>
+    <header>
+        <h1>Purbalinggaku</h1>
+        <p>Website yang menceritakan sejarah, budaya, dan karya sastra dari Purbalingga</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#cerpen">Cerpen</a>
+        <a href="#tentang">Tentang</a>
+    </nav>
+    <section id="cerpen">
+        <h2>Kumpulan Cerpen</h2>
+        <div class="cerpen">
+            <h3>Cerpen 1: Judul Cerpen</h3>
+            <p>Ini adalah ringkasan singkat cerpen pertama Anda. <a href="#">Baca Selengkapnya</a></p>
+        </div>
+        <div class="cerpen">
+            <h3>Cerpen 2: Judul Cerpen</h3>
+            <p>Ini adalah ringkasan singkat cerpen kedua Anda. <a href="#">Baca Selengkapnya</a></p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Purbalinggaku. Semua Hak Dilindungi.</p>
+    </footer>
 </body>
 </html>
